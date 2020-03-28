@@ -10,6 +10,6 @@ end
 # title: kickstarter.css("h2.bbcard_name strong a").text
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # descripton: project.css("p.bbcard_blurb").text
-# location: project.css("ul.project_meta").text
-
+# location: project.css("ul.project-meta span.location-name").text
+#percent_funded: project.css("ul.project-stats li.first.funded strong")
 create_project_hash
